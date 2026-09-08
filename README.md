@@ -24,6 +24,7 @@
 
 - [Stage 01 · 与 LLM 通信（接入层）](docs/stages/01-llm-access.md)
 - [Stage 02 · 声明 Read 工具（工具广告）](docs/stages/02-tool-advertisement.md)
+- [Stage 03 · 执行 Read 工具（工具执行闭环）](docs/stages/03-tool-execution.md)
 
 ## 参考
 
