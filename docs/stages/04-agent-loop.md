@@ -240,7 +240,7 @@ messages JSON（有结构：role / tool_calls / 参数）
 
 ## 待办
 
-- [ ] submit 复验回归（错误处理路径改动了主循环）
-- [ ] `newMessage` 变量可内联为 `messages.push({ role: "tool", tool_call_id: id, content })`——将来给 messages 标 `ChatCompletionMessageParam[]` 时，内联对象字面量能推导出 `role: "tool"` 字面量类型，const 中转会宽化成 `string` 而报错
-- [ ] 安装 bun + `bunx tsc --noEmit`（messages 的类型标注欠着）
-- [ ] 成本感知第一步：打印 `response.usage.prompt_tokens`，亲眼看"每轮全量重发"的账单
+- [x] submit 复验回归 ✔（2026-09-17 全绿）
+- [x] 本地环境：已决策**不装 bun**（2026-09-17），依赖课程远程测试
+- [ ] 成本感知：打印 `response.usage.prompt_tokens`，亲眼看"每轮全量重发"的账单（下次授课提醒）
+- [ ]（可选，若将来上 tsc）`newMessage` 内联为 `messages.push({ role: "tool", tool_call_id: id, content })`——内联字面量能推导出 `role: "tool"` 字面量类型；messages 标 `ChatCompletionMessageParam[]`
