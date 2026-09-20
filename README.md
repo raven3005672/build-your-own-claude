@@ -26,6 +26,7 @@
 - [Stage 02 · 声明 Read 工具（工具广告）](docs/stages/02-tool-advertisement.md)
 - [Stage 03 · 执行 Read 工具（工具执行闭环）](docs/stages/03-tool-execution.md)
 - [Stage 04 · 实现 Agent Loop（harness 的心脏）](docs/stages/04-agent-loop.md)
+- [Stage 05 · Write 工具（第一个副作用工具）](docs/stages/05-write-tool.md)
 
 ## 参考
 
