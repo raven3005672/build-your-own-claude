@@ -29,6 +29,11 @@
 - [Stage 05 · Write 工具（第一个副作用工具）](docs/stages/05-write-tool.md)
 - [Stage 06 · Bash 工具（不可逆性的顶点）](docs/stages/06-bash-tool.md)
 
+## 综合讨论（课程结束后）
+
+- [①–③ 工具安全与信任模型](docs/discussions/01-tool-safety-trust.md)——可逆性分级 / 软边界 vs 硬边界 / 写工具设计谱系
+  - ④ 沙箱深潜、⑤ 不设限的中间地带：待恢复后继续（详见文末"待续"）
+
 ## 参考
 
 - 生产级 harness 源码：`~/github/deepseek-harness`（DeepSeek 开源，一切皆插件架构）
