@@ -5,6 +5,7 @@
 ## 学习路径
 
 - **Phase 1（✔ 6/6 完成，2026-09-26）**：跟随 CodeCrafters「Build your own Claude Code」课程，在 `~/github/codecrafters-claude-code-typescript` 实现 6 个 stage。每关学完，把概念与讨论沉淀到本仓库 `docs/stages/`。
+- **后续关卡（进行中）**：课程新增 Skill 系列——Stage vh1「技能发现与广告」✔（2026-10-18），按课程继续推进。
 - **Phase 2（规划中）**：回到本仓库，基于 Phase 1 的 agent 内核做深化。方向待定（候选：Web UI 壳、插件系统、对照 deepseek-harness 源码）。
 
 配合方式：结对模式——每个 stage 先讲概念 → 亲手写代码 → 本地验证 → 提交远程测试 → 复盘沉淀。
@@ -28,6 +29,7 @@
 - [Stage 04 · 实现 Agent Loop（harness 的心脏）](docs/stages/04-agent-loop.md)
 - [Stage 05 · Write 工具（第一个副作用工具）](docs/stages/05-write-tool.md)
 - [Stage 06 · Bash 工具（不可逆性的顶点）](docs/stages/06-bash-tool.md)
+- [Stage 07 · Skill Level 1（技能发现与广告）](docs/stages/07-skill-advertising.md)
 
 ## 综合讨论（课程结束后）
 
