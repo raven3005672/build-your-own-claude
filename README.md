@@ -5,7 +5,7 @@
 ## 学习路径
 
 - **Phase 1（✔ 6/6 完成，2026-09-26）**：跟随 CodeCrafters「Build your own Claude Code」课程，在 `~/github/codecrafters-claude-code-typescript` 实现 6 个 stage。每关学完，把概念与讨论沉淀到本仓库 `docs/stages/`。
-- **后续关卡（进行中）**：课程新增 Skill 系列——Level 1 广告 ✔ / Level 2 按名调用 ✔ / 参数替换 ✔（2026-10-18），按课程继续推进。
+- **后续关卡（进行中）**：课程新增 Skill 系列——广告 ✔ / 按名调用 ✔ / 参数替换 ✔ / 叠加 ✔ / 模型自主调用 ✔（2026-10-23），按课程继续推进。
 - **Phase 2（规划中）**：回到本仓库，基于 Phase 1 的 agent 内核做深化。方向待定（候选：Web UI 壳、插件系统、对照 deepseek-harness 源码）。
 
 配合方式：结对模式——每个 stage 先讲概念 → 亲手写代码 → 本地验证 → 提交远程测试 → 复盘沉淀。
@@ -32,6 +32,8 @@
 - [Stage 07 · Skill Level 1（技能发现与广告）](docs/stages/07-skill-advertising.md)
 - [Stage 08 · Skill Level 2（按名调用与正文加载）](docs/stages/08-skill-invocation.md)
 - [Stage 09 · Skill 参数（Placeholder 替换）](docs/stages/09-skill-arguments.md)
+- [Stage 10 · 技能叠加（Stacking）](docs/stages/10-skill-stacking.md)
+- [Stage 11 · 模型自主调用技能（Skill Tool）](docs/stages/11-skill-tool.md)
 
 ## 综合讨论（课程结束后）
 
