@@ -5,7 +5,7 @@
 ## 学习路径
 
 - **Phase 1（✔ 6/6 完成，2026-09-26）**：跟随 CodeCrafters「Build your own Claude Code」课程，在 `~/github/codecrafters-claude-code-typescript` 实现 6 个 stage。每关学完，把概念与讨论沉淀到本仓库 `docs/stages/`。
-- **后续关卡（进行中）**：课程新增 Skill 系列——广告 ✔ / 按名调用 ✔ / 参数替换 ✔ / 叠加 ✔ / 模型自主调用 ✔（2026-10-23），按课程继续推进。
+- **后续关卡（✔ 全部完成，2026-10-23）**：Skill 系列 6 关——广告 / 按名调用 / 参数替换 / 叠加 / 模型自主调用 / 子代理。**课程现有内容已全部完成（12 关）**。
 - **Phase 2（规划中）**：回到本仓库，基于 Phase 1 的 agent 内核做深化。方向待定（候选：Web UI 壳、插件系统、对照 deepseek-harness 源码）。
 
 配合方式：结对模式——每个 stage 先讲概念 → 亲手写代码 → 本地验证 → 提交远程测试 → 复盘沉淀。
@@ -34,11 +34,16 @@
 - [Stage 09 · Skill 参数（Placeholder 替换）](docs/stages/09-skill-arguments.md)
 - [Stage 10 · 技能叠加（Stacking）](docs/stages/10-skill-stacking.md)
 - [Stage 11 · 模型自主调用技能（Skill Tool）](docs/stages/11-skill-tool.md)
+- [Stage 12 · 子代理执行技能（context: fork）](docs/stages/12-skill-subagent.md)
 
 ## 综合讨论（课程结束后）
 
 - [①–③ 工具安全与信任模型](docs/discussions/01-tool-safety-trust.md)——可逆性分级 / 软边界 vs 硬边界 / 写工具设计谱系
   - ④ 沙箱深潜、⑤ 不设限的中间地带：待恢复后继续（详见文末"待续"）
+
+## 课程总结
+
+- [从 0 到 Agent Harness（12 关全景）](docs/summary.md)
 
 ## 参考
 
